@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "db",
@@ -33,6 +34,18 @@
     "public": false
   },
   "end-user": {
+    "dataSource": "db",
+    "public": true
+  },
+  "recipe": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ingredient": {
+    "dataSource": "db",
+    "public": true
+  },
+  "step": {
     "dataSource": "db",
     "public": true
   }
