@@ -4,10 +4,10 @@ module.exports = function(Recipe) {
     const request = context.req;
 
     // Get current user id
-    const userId = req.accessToken.userId;
+    const userId = request.accessToken.userId;
 
     // Set relationship data for user
-    req.body.data.relationships.user.data = {
+    request.body.data.relationships.user.data = {
       id: userId,
     };
 

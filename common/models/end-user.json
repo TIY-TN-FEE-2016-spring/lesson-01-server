@@ -16,7 +16,7 @@
     "recipes": {
       "type": "hasMany",
       "model": "recipe",
-      "foreignKey": ""
+      "foreignKey": "user-id"
     }
   },
   "acls": [
